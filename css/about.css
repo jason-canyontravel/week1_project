@@ -1,0 +1,14 @@
+.btn-1 {
+  border-style: solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.btn-2 {
+  border-style: none;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}

@@ -1,0 +1,140 @@
+/* The following is styling for the focus box. Should we copy and paste it into main so that we can apply it to the about page? */
+
+div.focus-box {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.focus-box h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.focus-box .info {
+  color: rgb(100, 100, 100);
+  line-height: 1.3;
+  padding-bottom: 20px;
+}
+
+.focus-box button {
+  padding: 10px 20px;
+  background-color: #0651f8;
+  border-radius: 10px;
+  border: 1px solid #0651f8;
+  color: white;
+  margin: 0px 5px 15px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.focus-box .chat-btn {
+  background-color: #fff;
+  color: #0651f8;
+}
+.focus-box a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.focus-box a:hover {
+  font-weight: 700;
+  color: inherit;
+}
+
+.focus-box small {
+  font-size: 12px;
+}
+
+.explore {
+  text-align: center;
+  max-width: 700px;
+  margin: 60px auto;
+  line-height: 1.2;
+}
+
+.explore hr {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.explore-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.explore small {
+  width: 400px;
+}
+.explore-item {
+  border: 1px solid #999;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.explore-item-text {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.explore-item-icon {
+  background-color: rgb(248, 248, 248);
+  border-radius: 100%;
+  color: black;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto 0;
+  /* display: flex;
+  justify-items: center;
+  align-content: center; */
+  text-align: center;
+  padding-top: 5px;
+  font-size: 28px;
+}
+
+.explore-item.payments {
+  background-color: #0651f8;
+  color: white;
+}
+
+.solutions {
+  text-align: center;
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.solutions .solutions-text {
+  font-size: 10px;
+  line-height: 1.2;
+  max-width: 230px;
+  margin: 0px auto;
+}
+
+.solutions-icon {
+  background-color: #e3ebfc;
+  border: 1px solid #bbb;
+  color: #0651f8;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin: 15px auto;
+  font-size: 54px;
+  padding-top: 20px;
+}
+
+.solutions .solutions-dropdown-button .btn {
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #00030a;
+  padding: 3px;
+  font-size: 12px;
+  width: 130px;
+  color: #00030a;
+}

@@ -6,25 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
     <script src="https://kit.fontawesome.com/fedc067f47.js" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/sign-up-jason.css" />
-
     <title>Double Tap CRM</title>
   </head>
   <body>
-    <main>
-      
-    </main>
+      <div class="split-screen">
+      <div class="left">
+          <section class="copy">
+              <h1>Explore CRM</h1>
+              <p>We provide database solutions for all your business needs.</p>
+          </section>
+      </div>
+      <div class="right">
+          <form>
+              <section class="copy">
+                  <h2>Sign Up</h2>
+                  <div class="login-container">
+                      <p>Already have an account? <a href="sign-in-beck.html">
+                      <strong>Log In</strong></a></p>
+                  </div>
+              </section>
+              <div class="input-container name">
+                  <label for="fname">Full Name</label>
+                  <input id="fname" name="fname" type="text">
+              </div>
+              <div class="input-container email">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email">
+              </div>
+              <div class="input-container password">
+                  <label for="password">Password</label>
+                  <input id="password" name="password"
+                  placeholder="Must be at least 6 characters"
+                  type="password">
+                  <i class="far fa-eye-slash"></i>
+              </div>
+               <div class="input-container cta">
+                   <label class="checkbox-container">
+                       <input type="checkbox">
+                       <span class="checkmark"></span>
+                      Sign up for email updates.
+                  </label>
+              </div>
+              <button class="signup-btn" type="submit">Sign
+            Up</button>
+            <section class="copy legal">
+                <p><span class="small">By continuing, you agree
+                to accept our <br> <a href="#">Privacy
+                Policy</a> &amp; <a href="#">Terms of
+                Services</a>.</span></p>
+              </section>
+          </form>
+      </div>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
